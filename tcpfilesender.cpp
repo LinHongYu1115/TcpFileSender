@@ -13,6 +13,7 @@ TcpFileSender::TcpFileSender(QWidget *parent)
     quitButton = new QPushButton(QStringLiteral("退出"));
     openButton = new QPushButton(QStringLiteral("開檔"));
     startButton->setEnabled(false);
+    //can i Push?
     buttonBox = new QDialogButtonBox;
     buttonBox->addButton(startButton, QDialogButtonBox::ActionRole);
     buttonBox->addButton(openButton, QDialogButtonBox::ActionRole);
